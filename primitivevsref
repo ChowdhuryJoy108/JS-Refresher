@@ -1,0 +1,25 @@
+let x = 10;
+let y = 20;
+
+x = y ;
+y = 30
+console.log(x)
+console.log(y)
+
+`in this primitive case, only changing the value of both variales.`
+
+
+let lang1 = ['Js', 'Python'];
+let lang2 = ['HTML', 'CSS'];
+
+lang2 = lang1;
+console.log(lang1);
+console.log(lang2);
+
+lang1.push('Golang');
+console.log(lang1);
+console.log(lang2)
+
+`if we change lang1, then it will also change lang2 because we have copied lang2 in lang1 now one pointer will pointing both [lang1 and lang2].`
+
+
